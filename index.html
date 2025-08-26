@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Help Now</title>
   <script src="https://cdn.tailwindcss.com"></script>
- 
+ <script src="https://kit.fontawesome.com/0bff4f04d9.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-green-50 font-sans">
 
@@ -13,20 +13,22 @@
   <header class="bg-white shadow-md">
     <div class="container mx-auto flex justify-between items-center px-4 py-3">
       <div class="flex items-center gap-2">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Red_Cross.svg/1200px-Red_Cross.svg.png" alt="Logo" class="w-8 h-8">
+        <img src="assets/logo.png" alt="Logo" class="w-16 ">
         <h1 class="text-lg font-bold text-green-700">Emergency Service</h1>
       </div>
       <div class="flex items-center gap-4">
-        <div class="flex items-center gap-1">
-          <span class="text-red-600">0</span>
-          <span class="text-sm">❤️</span>
+        <div class="flex items-center gap-1  bg-green-100 px-2 py-1 rounded-lg">
+          <span class="text-red-600 text-xl">0</span>
+          <span class="text-2xl">❤️</span>
         </div>
-        <div class="flex items-center gap-1">
-          <span class="text-green-600">100</span>
-          <span class="text-sm">🪙</span>
+        <div class="flex items-center gap-1 bg-green-100 px-2 py-1 rounded-lg">
+          <span class="text-green-600 text-xl">100</span>
+         <div class="">
+            <img class="w-9" src="assets/coin.png" alt="">
+         </div>
         </div>
-        <button class="bg-green-600 text-white px-3 py-1 rounded-lg shadow hover:bg-green-700">
-          2 Copy
+        <button class="bg-green-600 text-white px-6 py-2 text-xl rounded-lg shadow hover:bg-green-700">
+          Copy
         </button>
       </div>
     </div>
@@ -35,7 +37,7 @@
   <!-- Hero Section -->
   <section class="bg-green-700 text-white py-8 text-center">
     <div class="container mx-auto">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Government_Seal_of_Bangladesh.svg/1200px-Government_Seal_of_Bangladesh.svg.png" alt="Gov Logo" class="w-16 mx-auto mb-2">
+      <img src="assets/logo-dark.png" alt="Gov Logo" class="w-24 mx-auto mb-2">
       <h2 class="text-2xl font-bold">Emergency Service Directory</h2>
       <p class="mt-2 text-sm">Government Emergency Services at Your Fingertip – A Project by Government of the People's Republic of Bangladesh</p>
     </div>
@@ -49,145 +51,234 @@
 
       <!-- Card Template -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+        <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/emergency.png" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">National Emergency Number</h3>
             <p class="text-sm text-gray-500">National Emergency</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+         
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">999</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">All</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Police -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/police.png" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Police Helpline Number</h3>
             <p class="text-sm text-gray-500">Police</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">999</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Police</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Fire Service -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/fire-service.png" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Fire Service Number</h3>
             <p class="text-sm text-gray-500">Fire Service</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+        
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">999</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Fire</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Ambulance -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/ambulance.png" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Ambulance Service</h3>
             <p class="text-sm text-gray-500">Ambulance</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+         
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">1994-999999</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Ambulance</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Women & Child Helpline -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/HelpLine.jfif" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Women & Child Helpline</h3>
             <p class="text-sm text-gray-500">Women & Child Helpline</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+         
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">109</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Help </span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Anti-Corruption -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/Unti.png" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Anti-Corruption Helpline</h3>
             <p class="text-sm text-gray-500">Anti-Corruption</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+         
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">106</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Govt.</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Electricity -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-16" src="assets/electricity-logo.webp" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Electricity Helpline</h3>
             <p class="text-sm text-gray-500">Electricity Outage</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+        
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">16216</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Electricity</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- BRAC -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-16" src="assets/NGo.jpg" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Brac Helpline</h3>
             <p class="text-sm text-gray-500">NGO</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+          
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">16445</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">NGO</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
       <!-- Railway -->
       <div class="bg-white rounded-2xl shadow p-4 border border-gray-200">
+           <div class=" flex  justify-between items-center"> 
+            <div class="">
+            <img class="w-10" src="assets/Railwaye.png" alt="">
+            </div>
+            <div class="">
+                 <button class="text-gray-400 hover:text-red-500 text-[45px]">♡</button>
+            </div>
+        </div>
+        
         <div class="flex justify-between items-start">
           <div>
             <h3 class="font-semibold text-gray-800">Bangladesh Railway Helpline</h3>
             <p class="text-sm text-gray-500">Travel</p>
           </div>
-          <button class="text-gray-400 hover:text-red-500">♡</button>
+      
         </div>
         <p class="text-2xl font-bold text-green-700 my-2">163</p>
+        <span class="text-sm text-gray-600 bg-gray-200 rounded-xl px-3 py-1">Travel</span>
         <div class="flex gap-2 mt-3">
-          <button class="flex-1 border px-2 py-1 rounded-lg text-sm">Copy</button>
-          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-sm">Call</button>
+          <button class="flex-1 border px-2 py-1 rounded-lg text-xl">Copy</button>
+          <button class="flex-1 bg-green-600 text-white px-2 py-1 rounded-lg text-xl">Call</button>
         </div>
       </div>
 
@@ -196,16 +287,52 @@
     <!-- Call History -->
     <aside class="bg-white rounded-2xl shadow p-4 border border-gray-200">
       <div class="flex justify-between items-center mb-3">
-        <h3 class="font-semibold text-gray-800">📞 Call History</h3>
+        <h3 class="font-semibold text-gray-800"><i class="fa-solid fa-clock-rotate-left"></i> Call History</h3>
         <button class="text-sm text-red-500">Clear</button>
       </div>
+      <hr>
       <ul class="space-y-2 text-sm text-gray-700">
-        <li class="flex justify-between"><span>Fire Service Number</span><span>11:36:58 AM</span></li>
-        <li class="flex justify-between"><span>National Emergency Number</span><span>11:36:58 AM</span></li>
-        <li class="flex justify-between"><span>Fire Service Number</span><span>11:36:58 AM</span></li>
-        <li class="flex justify-between"><span>Bangladesh Railway Helpline</span><span>11:36:58 AM</span></li>
-        <li class="flex justify-between"><span>Fire Service Number</span><span>11:36:58 AM</span></li>
-        <li class="flex justify-between"><span>Anti-Corruption Helpline</span><span>11:36:58 AM</span></li>
+        <div class="max-w-md mx-auto p-4 bg-gray-50 rounded-xl shadow flex items-center justify-between">
+  <!-- Left content -->
+  <div>
+    <h2 class="font-bold text-md">Fire Service Number</h2>
+    <p class="text-gray-600 text-lg  font-bold text-black-600">999</p>
+  </div>
+  <!-- Right content -->
+  <span class="text-gray-500 text-sm">11:36:58 AM</span>
+</div>
+       
+        <div class="max-w-md mx-auto p-4 bg-gray-50 rounded-xl shadow flex items-center justify-between">
+  <!-- Left content -->
+  <div>
+    <h2 class="font-bold text-md">Fire Service Number</h2>
+    <p class="text-gray-600 text-lg  font-bold text-black-600">999</p>
+  </div>
+  <!-- Right content -->
+  <span class="text-gray-500 text-sm">11:36:58 AM</span>
+</div>
+       
+        <div class="max-w-md mx-auto p-4 bg-gray-50 rounded-xl shadow flex items-center justify-between">
+  <!-- Left content -->
+  <div>
+    <h2 class="font-bold text-md">Fire Service Number</h2>
+    <p class="text-gray-600 text-lg  font-bold text-black-600">999</p>
+  </div>
+  <!-- Right content -->
+  <span class="text-gray-500 text-sm">11:36:58 AM</span>
+</div>
+       
+        <div class="max-w-md mx-auto p-4 bg-gray-50 rounded-xl shadow flex items-center justify-between">
+  <!-- Left content -->
+  <div>
+    <h2 class="font-bold text-md">Fire Service Number</h2>
+    <p class="text-gray-600 text-lg  font-bold text-black-600">999</p>
+  </div>
+  <!-- Right content -->
+  <span class="text-gray-500 text-sm">11:36:58 AM</span>
+</div>
+       
+       
       </ul>
     </aside>
 
