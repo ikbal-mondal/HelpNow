@@ -9,7 +9,7 @@
     const callHistoryEl = document.getElementById("callHistory");
     const clearHistoryBtn = document.getElementById("clearHistoryBtn");
 
-    // Heart button logic
+    // Heart button 
     document.querySelectorAll(".heart-btn").forEach(btn => {
       btn.addEventListener("click", () => {
         heartCount++;
@@ -18,7 +18,7 @@
       });
     });
 
-    // Copy button logic
+    // Copy button 
     document.querySelectorAll(".copy-btn").forEach(btn => {
       btn.addEventListener("click", (e) => {
         const card = e.target.closest(".service-card");
@@ -33,7 +33,7 @@
       });
     });
 
-    // Call button logic
+    // Call button 
     document.querySelectorAll(".call-btn").forEach(btn => {
       btn.addEventListener("click", (e) => {
         const card = e.target.closest(".service-card");
